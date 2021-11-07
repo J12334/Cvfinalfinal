@@ -55,9 +55,11 @@
          width=70" height="70"></a>
     <a class="footer-link" href="https://leetcode.com/jayeshpagare032/"><img alt="Qries" src="images/lee.png"
          width=70" height="70"></a>
-    <p class="cme">© 2021 Jayesh Pagare.</p>
+    <p class="cme">© <span id="currYear"></span> Jayesh Pagare.</p>
   </div>
 
 </body>
-
+<script type="text/javascript">        
+document.getElementById("currYear").innerHTML = new Date().getFullYear();;
+</script>
 </html>
